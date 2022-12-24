@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --one-color: #d9ceb2;
+  --ones-color: hsl(0deg, 0%, 92%);
+  --two-color: #948c75;
+  --three-color: #d5ded9;
+  --four-color: #7a6a53;
+  --five-color: #99b2b7;
+  --six-color: #fff;
+  --seven-color: black;
+  --primary-font-family: "Karla", sans-serif;
+}
+
+.item {
+  margin-bottom: 20px;
+}
+
+#project .owl-nav {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  right: 2%;
+}
+#project .owl-nav .owl-next {
+  margin-right: 27px;
+}
+
+.adjuste-bar {
+  border-bottom: 1px solid black;
+}
+.adjuste-bar .container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.adjuste-bar .container .imgPessoal {
+  display: flex;
+  width: auto;
+  height: auto;
+}
+.adjuste-bar .container .imgPessoal .adjuste-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}
+.adjuste-bar .container .imgPessoal .img-text {
+  display: flex;
+  font-size: 20px;
+  font-family: var(--primary-font-family);
+  font-weight: 600;
+  color: var(--seven-color);
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+}
+.adjuste-bar .container .menu {
+  display: flex;
+}
+.adjuste-bar .container .menu .list {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  list-style: none;
+}
+.adjuste-bar .container .menu .list .list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+  font-size: 16px;
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+}
+.adjuste-bar .container .menu .list .list-item a {
+  text-decoration: none;
+  color: var(--seven-color);
+  border-bottom: 1px inset var(--four-color);
+}
+
+.project {
+  margin-top: 30px;
+}
+.project .container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.project .container .project-text {
+  font-size: 30px;
+  font-family: var(--primary-font-family);
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-right: 67px;
+}
+.project .container .project-carrousel {
+  max-width: 1200px;
+  width: 100%;
+  height: 600px;
+}
+.project .container .project-carrousel .project-card {
+  height: 540px;
+  width: 487px;
+  background-color: var(--ones-color);
+  border-radius: 10px;
+  margin: 0px 20px;
+  cursor: pointer;
+  box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+.project .container .project-carrousel .project-card--construction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.project .container .project-carrousel .project-card .project-img {
+  padding: 0px 0px 40px 0px;
+  display: flex;
+  height: 250px;
+  width: 486px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.project .container .project-carrousel .project-card .text-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: var(--primary-font-family);
+  font-weight: 800;
+}
+.project .container .project-carrousel .project-card .subtext {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0em;
+  width: 400px;
+  margin: 0 auto;
+  font-weight: 700;
+  text-align: center;
+  font-family: var(--primary-font-family);
+}
+.project .container .project-carrousel .project-card .project-button {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 80px auto 0 auto;
+  background-color: var(--seven-color);
+  border-radius: 65px;
+  height: 53px;
+  width: 322px;
+  font-family: var(--primary-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: #fff;
+  border: 0px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.project .container .project-carrousel .project-card .project-button--background {
+  margin: 20px auto 0 auto;
+}
+.project .container .project-carrousel .project-card .project-button a {
+  color: var(--six-color);
+  text-decoration: none;
+  text-align: center;
+}
+
+.habilits-section .habilits-maintext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-right: 67px;
+  padding-bottom: 30px;
+  font-family: var(--primary-font-family);
+  font-size: 30px;
+}
+.habilits-section .container {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+}
+.habilits-section .container .habilits {
+  display: flex;
+  width: 500px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.habilits-section .container .habilits .habilits-img {
+  height: 106px;
+  width: 106px;
+  padding: 20px 20px;
+  border-radius: 50px;
+}
+.habilits-section .container .habilits-text {
+  display: flex;
+  width: 500px;
+}
+.habilits-section .container .habilits-text .habilits-subtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
